@@ -19,4 +19,3 @@ Route::get('/', function () {
 })->name('main');
 
 
-Route::get('/{shortURI}',[ShortURIController::class, 'show'])->name('show');
